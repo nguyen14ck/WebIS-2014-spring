@@ -20,6 +20,8 @@ WebIS-2014-spring course notes and wiki.
 ### Test Driven Development/Design ###
 * "Test Driven Development: By Example," by Kent Beck, 2002. http://www.amazon.com/dp/0321146530
 * http://www.agiledata.org/essays/tdd.html
+* PHPUnit http://phpunit.de/
+* Configure PHPUnit for Eclipse (http://pkp.sfu.ca/wiki/index.php/Configure_Eclipse_for_PHPUnit)
 
 ## Lectures ##
 
