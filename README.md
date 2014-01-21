@@ -18,7 +18,7 @@ WebIS-2014-spring course notes and wiki.
   * http://git-scm.com/book/
 
 ### Test Driven Development/Design ###
-* http://www.amazon.com/dp/0321146530
+* "Test Driven Development: By Example," by Kent Beck, 2002. http://www.amazon.com/dp/0321146530
 * http://www.agiledata.org/essays/tdd.html
 
 ## Lectures ##
