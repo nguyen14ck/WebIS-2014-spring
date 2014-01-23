@@ -1,9 +1,8 @@
-# Download and Installation Instructions #
+# WebIS USB Install Instructions #
 By downloading this software you agree to abide by all the Licenses contained within.
 
 For a list of software licenses, downloads, and installation instructions please refer to the Software section of this website.
 
-## Download ##
 To install, Download the .exe file and run the .exe file. Extract it to the C:\ drive (the root folder) or any other drive/device. The WebIS folder will be created with all the software in that folder.
 
 ## Starting Applications ##
