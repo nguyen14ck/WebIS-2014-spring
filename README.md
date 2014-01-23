@@ -7,7 +7,7 @@ WebIS-2014-spring course notes and wiki.
 ### CSS/HTML/PHP ###
 * CSS and HTML
  * http://www.w3schools.com/html/
-** http://www.webreference.com/html/rendering/
+ * http://www.webreference.com/html/rendering/
  * http://www.hotdesign.com/seybold/everything.html (Required Reading)
  * http://www.sitepoint.com/books/css2/ (Recommended Reading)
 * PHP introduction
