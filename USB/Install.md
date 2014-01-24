@@ -79,8 +79,8 @@ ${cursor}
   * Accept default branch: master (click next)
   * Change Local Destination > Directory `\WebIS\workspace\WebIS`
   * Wait.
-  * Select `Import Existing Projects`, if not project is seen turn "search for nested projects" off then on.
-   * If it fails, import manually: File > Import > General > Existing Projects > Browse (verify it is in the workspace and select OK) > Finish
+  * Select `Import Existing Projects`, click Finish.
+   * If it fails, click cancel then import manually: File > Import > General > Existing Projects > Browse (verify it is in the workspace and select OK) > Finish
 
 ### TDD/PHP ###
  * Setup PHP Executable (Preferences > PHP > PHP Executables > Name: PHP 5.4, Add > Executable Path: `\WebIS\PortableApps\XAMPP\App\xampp\php\php.exe` remove drive letter, PHP Debugger: XDebug
