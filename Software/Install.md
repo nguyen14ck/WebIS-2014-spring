@@ -86,7 +86,7 @@ ${cursor}
  * Setup PHP Executable (Preferences > PHP > PHP Executables > Add > Name: PHP 5.4, Add > Executable Path: `\WebIS\PortableApps\XAMPP\App\xampp\php\php.exe` remove drive letter, PHP Debugger: XDebug
   * PHP Executables > Execution Envrionments > php5.4, slelect PHP 5.4 on left.
  * Enable CLI: Preferences > PHP > Debug > PHP Debugger: XDebug, Enable CLI Debug: Check
- * Add PEAR libraries: Preferences > PHP > PHP Libraries > Import >  `\WebIS\workspace\WebIS\USB\WebIS.userlibraries`
+ * Add PEAR libraries: Preferences > PHP > PHP Libraries > Import >  `\WebIS\workspace\WebIS\Software\WebIS.userlibraries`
   * Make sure PEAR is selected. 
 
 ## Project Configuration ##
