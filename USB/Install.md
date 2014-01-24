@@ -63,7 +63,7 @@ ${cursor}
 </html>
 }}}
 
-## GitHub ##
+### GitHub ###
  * Window > Preferences > Team > Git
   * Default Repository Folder > Variable > workspace_loc
   * Configuration > User Settings > Add Entry > user.name and user.email
@@ -75,16 +75,22 @@ ${cursor}
   * Configure Secure Store
   * New Project Wizzard (follow the prompt)
  * Clone the WebIS repository (https://github.com/MiddelkoopT/WebIS-2014-spring)
-  * Set local working directory to `\WebIS\workspace\WebIS`
+  * Check local working directory `\WebIS\workspace\WebIS`
   * Select `Import Existing Projects`
   * If no project is seen select `search for nexted projects` on, or, off then back on.
-  * If it fails import manually (File > Import > General > Existing Projects > Browse (verify it is in the workspace and select OK) > Finish)
+   * If it fails, import manually: File > Import > General > Existing Projects > Browse (verify it is in the workspace and select OK) > Finish
 
-## TDD/PHP ##
+### TDD/PHP ###
  * Setup PHP Executable (Preferences > PHP > PHP Executables > Name: PHP, Add (\WebIS\PortableApps\XAMPP\App\xampp\php\php.exe) and change to XDebug, remove drive letter
  * Enable CLI: Preferences > PHP > Debug; (XDebug, Enable CLI Debug)
- * Add USB/WebIS.userlibrarys (once)
- * Add WebIS project reference
+ * Add USB/WebIS.userlibrarys
+
+## Project Configuration ##
+
+## TDD/PHP
+ * Project Configurations (project > configuation)
+  * Add PEAR user library reference to project 
+  * Add WebIS project reference to project
 
 ## Reinstall Software ##
  * Reboot
