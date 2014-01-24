@@ -80,6 +80,12 @@ ${cursor}
   * If no project is seen select `search for nexted projects` on, or, off then back on.
   * If it fails import manually (File > Import > General > Existing Projects > Browse (verify it is in the workspace and select OK) > Finish)
 
+## TDD/PHP ##
+ * Setup PHP Executable (Preferences > PHP > PHP Executables > Name: PHP, Add (\WebIS\PortableApps\XAMPP\App\xampp\php\php.exe) and change to XDebug, remove drive letter
+ * Enable CLI: Preferences > PHP > Debug; (XDebug, Enable CLI Debug)
+ * Add USB/WebIS.userlibrarys (once)
+ * Add WebIS project reference
+
 ## Reinstall Software ##
  * Reboot
  * Move the `\WebIS\workspace` directory to another location.
