@@ -83,16 +83,20 @@ ${cursor}
    * If it fails, click cancel then import manually: File > Import > General > Existing Projects > Browse (verify it is in the workspace and select OK) > Finish
 
 ### TDD/PHP ###
- * Setup PHP Executable (Preferences > PHP > PHP Executables > Name: PHP 5.4, Add > Executable Path: `\WebIS\PortableApps\XAMPP\App\xampp\php\php.exe` remove drive letter, PHP Debugger: XDebug
+ * Setup PHP Executable (Preferences > PHP > PHP Executables > Add > Name: PHP 5.4, Add > Executable Path: `\WebIS\PortableApps\XAMPP\App\xampp\php\php.exe` remove drive letter, PHP Debugger: XDebug
+  * PHP Executables > Execution Envrionments > php5.4, slelect PHP 5.4 on left.
  * Enable CLI: Preferences > PHP > Debug > PHP Debugger: XDebug, Enable CLI Debug: Check
- * Add PEAR libraries: Preferences > PHP > PHP Libraries > Import >  `USB/WebIS.userlibrarys`
+ * Add PEAR libraries: Preferences > PHP > PHP Libraries > Import >  `\WebIS\workspace\WebIS\USB\WebIS.userlibraries`
+  * Make sure PEAR is selected. 
 
 ## Project Configuration ##
 
 ## TDD/PHP
- * Project Configurations (project > configuation)
+ * Project Configurations (Project > Properties)
   * Add PEAR user library reference to project 
+   * PHP Include Path > Libraries > Add Library > User Library/Next > Select PEAR > Finish
   * Add WebIS project reference to project
+   * PHP Include Path > Projects > Add > Select WebIS > OK
 
 ## Reinstall Software ##
  * Reboot
