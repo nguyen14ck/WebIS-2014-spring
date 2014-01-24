@@ -1,32 +1,32 @@
-= WebIS-USBv7 =
+# WebIS-USBv7 #
 
-== Portable Apps ==
+## Portable Apps ##
  * PortableApps Platform (http://portableapps.com/download)
  * Applications (http://portableapps.com/apps)> XAMPP lite (XAMPP Portable Lite 5.4 7z) , XAMPP Launcher, Java Portable, 7-zip, Firefox, Notepad++, Sumatra PDF
 
-== Eclipse ==
+## Eclipse ##
  * http://www.eclipse.org 
    * Download > Eclipse Standard (Kepler 4.3.1 Windows 32 bit)
 
-== MySQL Java Connector/J ==
+## MySQL Java Connector/J ##
  * http://www.mysql.com/products/connector/j/ (platform independent .zip)
 
-== Redis ==
+## Redis ##
  * redis https://github.com/MSOpenTech/redis
  * https://github.com/MSOpenTech/redis/raw/2.6/bin/release/redisbin.zip
  
-== COIN-OR ==
+## COIN-OR ##
  * Optimization Services (http://www.coin-or.org/download/binary/OS/) OS-2.4.1 win32
 
-== HTML Tidy (html5) ==
+## HTML Tidy (html5) ##
  * https://github.com/w3c/tidy-html5/
  * Win32 Binary http://tidybatchfiles.info/tidy.zip
  
-== Offline Documentation ==
+## Offline Documentation ##
  * Mysql Documentation http://dev.mysql.com/doc/ (http://downloads.mysql.com/docs/refman-5.5-en.eclipse.zip)
  * PHP Documentation http://www.php.net/get/php_manual_en.tar.gz/from/a/mirror
 
-== Unpack and Install ==
+## Unpack and Install ##
  * Install Portableapps "Platform Setup" to `\WebIS` and do not start.
  * Install Portableapps Applications to `\WebIS\PortableApps`
    * Paste location (C:\WebIS\PortableApps\) to correct keeping app name.
@@ -40,10 +40,10 @@
    * uncompress PHP Documentation `php_manual_en.tar.gz`
    * extract PHP Documentation `php_manual_en.tar` to `\WebIS\PortableApps\eclipse\plugins\net.php.manual_54.en`
 
-== Clean Version ==
+## Clean Version ##
  * 7-zip sfx `\WebIS` as clean version.
    
-== Patch ==
+## Patch ##
  * patch `\WebIS\PortableApps\eclipse\eclipse.ini` (before --launcher.appendVmargs)
  {{{
 -data
@@ -113,16 +113,16 @@ cd \WebIS\PortableApps\eclipse\plugins\net.php.manual_*.en
 \WebIS\PortableApps\XAMPP\App\xampp\php\php.exe toc.php
 }}}  
 
-== Bin ==
+## Bin ##
  * Unzip bin/OSSolverService.exe to \WebIS\bin\
  * Unzip tidy.exe in tidy.zip to \WebIS\bin
  * Unzip redis-server.exe redis-cli.exe in redisbin.zip to \WebIS\bin
  
-== Firefox ==
+## Firefox ##
  * copy `bookmarks.html` to `\WebIS\PortableApps\FirefoxPortable\App\DefaultData\profile`
  * unzip html validator `tidy_firefox_win.xpi` to `\WebIS\PortableApps\FirefoxPortable\App\DefaultData\plugins`
  
-== Packages ==
+## Packages ##
  * Install eclipse packages with eclipse (do not use portable apps to launch)
  * Help -> install new software -> work with: Kepler ->
    * Database Development
@@ -134,21 +134,21 @@ cd \WebIS\PortableApps\eclipse\plugins\net.php.manual_*.en
  * Remove `\WebIS\workspace\.metadata`
  * Optional clean cache for eclipse (eclipse.exe -clean)
  
-== Optional ==
+## Optional ##
  * remove `eclipsec.exe` or rename to `eclipsec.exe.no`
 
-== Compress and make SFX==
+## Compress and make SFX##
  * use 7zip 
    * archive format: 7z
    * compression level: Ultra
    * Create SFX archive.
  
-== Notes ==
+## Notes ##
  * Debugger in XAMPP
   * Zend debugger will not work because zend does not supply a TS version of ZendDebugger.dll
   * XDebug Configuration in php.ini; use `php_xdebug.dll` found in full version.
 
-== Versions ==
+## Versions ##
 {{{
 3c0ae720610947b09dd5c6442c694570  WebIS-USB-v7.exe
 }}}
