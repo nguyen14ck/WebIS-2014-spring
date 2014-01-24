@@ -81,7 +81,7 @@ ${cursor}
    * If it fails, import manually: File > Import > General > Existing Projects > Browse (verify it is in the workspace and select OK) > Finish
 
 ### TDD/PHP ###
- * Setup PHP Executable (Preferences > PHP > PHP Executables > Name: PHP, Add (\WebIS\PortableApps\XAMPP\App\xampp\php\php.exe) and change to XDebug, remove drive letter
+ * Setup PHP Executable (Preferences > PHP > PHP Executables > Name: PHP, Add (`\WebIS\PortableApps\XAMPP\App\xampp\php\php.exe`) and change to XDebug, remove drive letter
  * Enable CLI: Preferences > PHP > Debug; (XDebug, Enable CLI Debug)
  * Add USB/WebIS.userlibrarys
 
