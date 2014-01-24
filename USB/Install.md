@@ -75,15 +75,17 @@ ${cursor}
   * Configure Secure Store
   * New Project Wizzard (follow the prompt)
  * Clone the WebIS repository (https://github.com/MiddelkoopT/WebIS-2014-spring)
-  * Check local working directory `\WebIS\workspace\WebIS`
-  * Select `Import Existing Projects`
-  * If no project is seen select `search for nexted projects` on, or, off then back on.
+  * Files > Import > Git > Projects From Git > Clone URI > `https://github.com/MiddelkoopT/WebIS-2014-spring`
+  * Accept default branch: master (click next)
+  * Change Local Destination > Directory `\WebIS\workspace\WebIS`
+  * Wait.
+  * Select `Import Existing Projects`, if not project is seen turn "search for nested projects" off then on.
    * If it fails, import manually: File > Import > General > Existing Projects > Browse (verify it is in the workspace and select OK) > Finish
 
 ### TDD/PHP ###
- * Setup PHP Executable (Preferences > PHP > PHP Executables > Name: PHP, Add (`\WebIS\PortableApps\XAMPP\App\xampp\php\php.exe`) and change to XDebug, remove drive letter
- * Enable CLI: Preferences > PHP > Debug; (XDebug, Enable CLI Debug)
- * Add USB/WebIS.userlibrarys
+ * Setup PHP Executable (Preferences > PHP > PHP Executables > Name: PHP 5.4, Add > Executable Path: `\WebIS\PortableApps\XAMPP\App\xampp\php\php.exe` remove drive letter, PHP Debugger: XDebug
+ * Enable CLI: Preferences > PHP > Debug > PHP Debugger: XDebug, Enable CLI Debug: Check
+ * Add PEAR libraries: Preferences > PHP > PHP Libraries > Import >  `USB/WebIS.userlibrarys`
 
 ## Project Configuration ##
 
