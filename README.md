@@ -26,3 +26,16 @@ WebIS-2014-spring course notes and wiki.
 ## Lectures ##
 
 ### Week 1
+* Introduciton to class and syllabus.
+* Overview of the Web Stack.
+* Download and uncompress class software.
+
+### Week 2
+* Setting up the system.
+* HTML, UTF-8, TDD, Github, and the development envronment (eclipse).
+* Project overview.
+* Agile
+ * http://www.agilealliance.org/the-alliance/the-agile-manifesto/the-twelve-principles-of-agile-software/
+ * http://guide.agilealliance.org/ 
+ * http://www.ambysoft.com/essays/agileLifecycle.html
+ * http://www.indicthreads.com/1439/quick-introduction-to-agile-software-development/
