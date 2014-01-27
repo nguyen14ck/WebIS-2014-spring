@@ -48,7 +48,8 @@ Follow the following directions carefully and in order:
   * select (Web) HTML Files > change the Encoding to ISO 10646/Unicode(UTF-8) [press ii]
   * click OK
  * Window > Preferences > PHP > Code Style > Code Templates > Configure generated code and comments: Code > html 4.01 frameset > Edit > Replace with following
-{{{
+
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,7 +62,7 @@ ${cursor}
 ?>
 </body>
 </html>
-}}}
+```
 
 ### GitHub ###
  * Window > Preferences > Team > Git
