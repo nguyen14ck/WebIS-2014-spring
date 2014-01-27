@@ -67,7 +67,7 @@ ${cursor}
 ### GitHub ###
  * Window > Preferences > Team > Git
   * Default Repository Folder > Variable > workspace_loc
-  * Configuration > User Settings > Add Entry > user.name and user.email
+  * Configuration > Repository Settings > Add Entry > Key: user.name, Value: "Your Name", user.email: "your@email.com"
  * Signup for an account at GitHub (https://github.com) DO NOT USE A SECURE PASSWORD, USE A NEW ONE.
  * Create a blank test repository with a README and License (Apache V2)
  * Files > Import > Git > Projects From Git > URI > 
