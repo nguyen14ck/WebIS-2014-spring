@@ -99,6 +99,18 @@ ${cursor}
   * Add WebIS project reference to project
    * PHP Include Path > Projects > Add > Select WebIS > OK
 
+### Git (advanced)
+Local/Network repository (for assignments).
+ * Open the Git Repository Exploring perspective.
+ * Create a main (origin) repository using the new Git repository button
+  * Parent folder should be a folder on a local or network drive, name it with a `.git` extenstion (assignments.git) and make it bare. 
+ * Clone this repository using the Clone a Git Repository button, this is the local repository.
+  * Click local file and use the newly created repository location (asignments.git).
+  * Local Destination: \WebIS\workspace\assignments
+  * Create a new PHP Project (A1) at existing location, using the local workspace repository `\WebIS\worspace\assignments\A1`
+  * Commit and push new project.
+ * For new projects in the (local) repository (\WebIS\workspace\assignments), create a new project in this folder.
+
 ## Reinstall Software ##
  * Reboot
  * Move the `\WebIS\workspace` directory to another location.
