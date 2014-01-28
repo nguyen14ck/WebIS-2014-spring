@@ -92,7 +92,7 @@ ${cursor}
 
 ## Project Configuration ##
 
-## TDD/PHP
+### TDD/PHP
  * Project Configurations (Project > Properties)
   * Add PEAR user library reference to project 
    * PHP Include Path > Libraries > Add Library > User Library/Next > Select PEAR > Finish
