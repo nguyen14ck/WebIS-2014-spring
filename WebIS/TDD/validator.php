@@ -1,5 +1,5 @@
 <?php 
-// WebIS validator Copywrite 2014 by Timothy Middelkoop License Apache 2.0
+// WebIS validator Copyright 2014 by Timothy Middelkoop License Apache 2.0
 // phpunit --include-path=../WebIS .
 namespace WebIS;
 
@@ -39,12 +39,13 @@ abstract class Validator extends \PHPUnit_Framework_TestCase {
 		$tidyoptions=self::$tidyoptions;
 		
 		## Get document
-		$request=new \HTTP_Request2("$web/$this->project/$file", \HTTP_Request2::METHOD_GET);
+		$url="$web/$this->project/$file";
+		$request=new \HTTP_Request2($url, \HTTP_Request2::METHOD_GET);
 		$request->getURL()->setQueryVariables($variables);
 		$doc=$request->send()->getBody();
 
 		## Verify server is running and content exists fist
-		$this->assertContains($contains,$doc);
+		$this->assertContains($contains,$doc,$url);
 		
 		## Call validator
 
