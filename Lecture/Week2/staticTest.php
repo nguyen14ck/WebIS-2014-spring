@@ -1,5 +1,5 @@
 <?php
-// WebIS validatorTest Copywrite 2014 by Timothy Middelkoop License Apache 2.0
+// WebIS validatorTest Copyright 2014 by Timothy Middelkoop License Apache 2.0
 
 require_once 'WebIS/TDD/validator.php';
 
