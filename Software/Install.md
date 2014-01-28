@@ -69,23 +69,26 @@ ${cursor}
   * Default Repository Folder > Variable > workspace_loc
   * Configuration > Repository Settings > Add Entry > Key: user.name, Value: "Your Name", user.email: "your@email.com"
  * Signup for an account at GitHub (https://github.com) DO NOT USE A SECURE PASSWORD, USE A NEW ONE.
+ * Clone the WebIS repository (https://github.com/MiddelkoopT/WebIS-2014-spring)
+  * Files > Import > Git > Projects From Git > Clone URI > `https://github.com/MiddelkoopT/WebIS-2014-spring`
+  * Accept default branch: master (click next)
+  * Change Local Destination > Directory `\WebIS\workspace\WebIS`
+  * Wait.
+  * Select `Import Existing Projects`, select Working Directory (may need to click more than once), click Finish.
+   * If it fails, click cancel then import manually: File > Import > General > Existing Projects > Browse (verify it is in the workspace and select OK) > Finish
+
+To create a new project:
  * Create a blank test repository with a README and License (Apache V2)
  * Files > Import > Git > Projects From Git > URI > 
   * Enter https url from github (on right panel of repository), github username and password, and select store in secure store 
   * Select `master` branch and verify it is stored in your workspace
   * Configure Secure Store
   * New Project Wizzard (follow the prompt)
- * Clone the WebIS repository (https://github.com/MiddelkoopT/WebIS-2014-spring)
-  * Files > Import > Git > Projects From Git > Clone URI > `https://github.com/MiddelkoopT/WebIS-2014-spring`
-  * Accept default branch: master (click next)
-  * Change Local Destination > Directory `\WebIS\workspace\WebIS`
-  * Wait.
-  * Select `Import Existing Projects`, click Finish.
-   * If it fails, click cancel then import manually: File > Import > General > Existing Projects > Browse (verify it is in the workspace and select OK) > Finish
+
 
 ### TDD/PHP ###
  * Setup PHP Executable (Preferences > PHP > PHP Executables > Add > Name: PHP 5.4, Add > Executable Path: `\WebIS\PortableApps\XAMPP\App\xampp\php\php.exe` remove drive letter, PHP Debugger: XDebug
-  * PHP Executables > Execution Envrionments > php5.4, slelect PHP 5.4 on left.
+  * PHP Executables > Execution Envrionments > php5.4, slelect PHP 5.4 on right. Click OK.
  * Enable CLI: Preferences > PHP > Debug > PHP Debugger: XDebug, Enable CLI Debug: Check
  * Add PEAR libraries: Preferences > PHP > PHP Libraries > Import >  `\WebIS\workspace\WebIS\Software\WebIS.userlibraries`
   * Make sure PEAR is selected. 
