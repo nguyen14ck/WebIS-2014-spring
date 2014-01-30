@@ -35,6 +35,7 @@ WebIS-2014-spring course notes and wiki.
 * HTML, UTF-8, TDD, Github, and the development envronment (eclipse).
 * Project overview.
 * Agile
+ * http://www.ambysoft.com/essays/agileManifesto.html 
  * http://www.agilealliance.org/the-alliance/the-agile-manifesto/the-twelve-principles-of-agile-software/
  * http://guide.agilealliance.org/ 
  * http://www.ambysoft.com/essays/agileLifecycle.html
