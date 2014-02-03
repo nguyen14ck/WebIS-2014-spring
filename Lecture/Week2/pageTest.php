@@ -7,7 +7,7 @@ class MyTestCase extends WebIS\Validator {
 	protected static $__CLASS__=__CLASS__;
 
 	protected function setUp() {
-		$this->project='First';
+		$this->project='WebIS/Lecture/Week2';
 		parent::setUp();
 	}
 
@@ -21,7 +21,6 @@ class MyTestCase extends WebIS\Validator {
 		$this->validate("page.php","Answer: 7",array('a'=>3,'b'=>4,'action'=>'Enter'));
 		$this->validate("page.php","Answer: 9",array('a'=>1,'b'=>8,'action'=>'Enter'));
 	}
-	
 
 }
 
