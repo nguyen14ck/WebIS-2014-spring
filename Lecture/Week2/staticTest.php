@@ -12,7 +12,7 @@ class MyTestCase extends WebIS\Validator {
 	
 	function testValidator() {
 		## static file
-		$this->validate("static.html","Week2 Test");
+		$this->assertValidHTML("static.html","Week2 Test");
 	}
 						
 }

@@ -17,9 +17,9 @@ class MyTestCase extends WebIS\Validator {
 	}
 	
 	function testPage() {
-		$this->validate("page.php","Hello: WebIS");
-		$this->validate("page.php","Answer: 7",array('a'=>3,'b'=>4,'action'=>'Enter'));
-		$this->validate("page.php","Answer: 9",array('a'=>1,'b'=>8,'action'=>'Enter'));
+		$this->assertValidHTML("page.php","Hello: WebIS");
+		$this->assertValidHTML("page.php","Answer: 7",array('a'=>3,'b'=>4,'action'=>'Enter'));
+		$this->assertValidHTML("page.php","Answer: 9",array('a'=>1,'b'=>8,'action'=>'Enter'));
 	}
 
 }
