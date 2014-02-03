@@ -97,6 +97,8 @@ Alias /xampp /webis/portableapps/xampp/app/xampp/htdocs/xampp
 ```
 ## uncomment in [PHP]
 default_charset = "UTF-8"
+## update include path [PHP]
+include_path = ".;\WebIS\PortableApps\XAMPP\App\xampp\php\PEAR;\WebIS\workspace;\WebIS\workspace\WebIS"
 ```
  * patch (append) `\WebIS\PortableApps\XAMPP\App\xampp\mysql\bin\my.ini`
 

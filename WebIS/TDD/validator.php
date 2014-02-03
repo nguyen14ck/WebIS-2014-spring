@@ -6,6 +6,10 @@ namespace WebIS;
 require_once 'PHPUnit/Autoload.php';
 require_once 'HTTP/Request2.php';
 
+if(!defined('STDERR')){
+    define('STDERR',fopen('php://stderr','w'));
+}
+
 abstract class Validator extends \PHPUnit_Framework_TestCase {
 
 	static $tidy="\\WebIS\\bin\\tidy.exe";
