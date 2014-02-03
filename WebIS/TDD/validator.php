@@ -32,7 +32,7 @@ abstract class Validator extends \PHPUnit_Framework_TestCase {
 	 * @param string $contains simple verfication that page loaded
 	 * @return string the entire doc for additional processing
 	 */
-	function validate($file,$variables=array(),$contains='</html>'){
+	function validate($file,$contains='</html>',$variables=array()){
 		# parent declared variables
 		$web=self::$web;
 		$tidy=self::$tidy;
