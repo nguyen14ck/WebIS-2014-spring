@@ -51,3 +51,12 @@ Resources:
  * http://www.w3schools.com/html/
  * http://validator.w3.org/
  * http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1
+
+#### Week 4
+ * The PHP Language (Chapter 3)
+ * Git workflow and Github.
+  * https://www.atlassian.com/git/workflows
+  * http://wiki.eclipse.org/EGit/User_Guide
+
+Required Reading:
+ * Chapter 3 of the text
