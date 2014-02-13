@@ -8,7 +8,7 @@ class MyTestCase extends WebIS\Validator {
 	protected static $__CLASS__=__CLASS__;
 	
 	protected function setUp() {
-		$this->project='WebIS/Test/TDD';
+		$this->project='WebIS/TDD';
 		parent::setUp();
 	}
 	

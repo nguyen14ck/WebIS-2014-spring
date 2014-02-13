@@ -26,6 +26,7 @@ abstract class Validator extends \PHPUnit_Framework_TestCase {
 
 	function testTidy() {
 		exec(self::$tidy." --version",$output,$return);
+		$this->assertEquals(0,$return);
 		$this->assertContains("HTML Tidy for HTML5",$output[0]);
 	}
 
