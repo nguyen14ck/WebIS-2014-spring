@@ -53,7 +53,7 @@ Resources:
  * http://validator.w3.org/
  * http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1
 
-#### Week 4
+### Week 4
  * The PHP Language (Chapter 3)
  * Git workflow and Github with eclipse.
   * https://www.atlassian.com/git/workflows
@@ -64,7 +64,7 @@ Required Reading:
  * Chapter 3 of the text
  * https://www.atlassian.com/git/workflows#!workflow-forking
 
-#### Week 5
+### Week 5
  * PHP and Objects.
  * PHP and Databases.
 
