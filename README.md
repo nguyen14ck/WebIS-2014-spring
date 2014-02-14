@@ -9,6 +9,7 @@ WebIS-2014-spring course notes and wiki.
  * http://www.w3schools.com/css/
  * http://www.w3schools.com/php/
  * http://git-scm.com/book/
+ * http://wiki.eclipse.org/EGit/User_Guide
 
 ### Test Driven Development/Design ###
  * "Test Driven Development: By Example," by Kent Beck, 2002. http://www.amazon.com/dp/0321146530
@@ -54,9 +55,20 @@ Resources:
 
 #### Week 4
  * The PHP Language (Chapter 3)
- * Git workflow and Github.
+ * Git workflow and Github with eclipse.
   * https://www.atlassian.com/git/workflows
   * http://wiki.eclipse.org/EGit/User_Guide
+  * http://git-scm.com/book/
 
 Required Reading:
  * Chapter 3 of the text
+ * https://www.atlassian.com/git/workflows#!workflow-forking
+
+#### Week 5
+ * PHP and Objects.
+ * PHP and Databases.
+
+Required Reading:
+ * Chapter 6
+
+ 
